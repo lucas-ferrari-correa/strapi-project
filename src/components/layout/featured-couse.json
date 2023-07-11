@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_featured_couses",
+  "info": {
+    "displayName": "featuredCouse",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "annoucement": {
+      "type": "text",
+      "required": false
+    }
+  }
+}
