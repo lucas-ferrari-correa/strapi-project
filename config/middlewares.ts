@@ -1,4 +1,5 @@
 export default [
+  'global::timer-header',
   'strapi::errors',
   'strapi::security',
   'strapi::cors',
